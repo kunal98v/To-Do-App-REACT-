@@ -1,0 +1,106 @@
+#body{
+  background-color: white;
+}
+
+.container{
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.d_btn{
+  background-color: azure;
+  color: black;
+  cursor: pointer;
+  width: 160px;
+  height: 40px;
+  border-radius: 10px;
+}
+.d_btn:hover{
+  width: 162px;
+  height: 42px;
+  transition: 0.5s;
+  background-color:black ;
+  color: white;
+
+}
+.inputBox {
+  width: 350px;
+  padding: 12px 20px;
+  margin: 8px 20px;
+}
+
+.add {
+  cursor: pointer;
+  font-style:bold;
+  width: 150px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  background-color: greenyellow;
+}
+.add:hover{
+  background-color: green;
+  color:white;
+  transition: 555ms;
+}
+.btn1{
+  background-color: yellow;
+  padding: 10px 15px;
+  border: none;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+
+}
+.btn1:hover{
+  background-color: purple;
+  color: aliceblue;
+  transition:0.5s;
+  width: 65px;
+  height: 40px;
+
+}
+
+.App {
+  text-align: center;
+  
+}
+
+
+
+.btn{
+  
+  border-radius: 55px;
+  margin-left: 10px;
+  background-color: red;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: red;
+  padding: 40px,25px;
+  transition: 200ms;
+  color: white;
+  width: 55px;
+  height: 45px;
+}
+
+
+.task{
+  
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 15px;
+}
+
+.ast{
+ 
+  display: flex;
+  align-items: center;;
+  justify-content: center;
+}
+

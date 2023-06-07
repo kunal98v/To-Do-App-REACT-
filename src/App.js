@@ -53,8 +53,9 @@ function App() {
       document.body.style.backgroundColor = "white";
       document.body.style.color = "black";
       document.body.style.transition = "0.5s";
+
      } else{
-      document.body.style.backgroundColor = "rgba(2, 2, 2, 0.841)";
+      document.body.style.backgroundColor = "#202020";
       document.body.style.color = "white";
       document.body.style.transition = "0.5s";
 
@@ -68,9 +69,12 @@ function App() {
         <input className='d_btn' type='button' onClick={toggle} value="DARK MODE ON/OFF"></input>
       </div>
 
-      <h1>To Do List</h1>
+      <h1 className='title'>To Do List</h1>
+      <div className='form'>
       <input className="inputBox" type='text' onChange={handleChange}></input>
-      <input className="add" type='button' value='ADD TASK' onClick={addItem}></input>
+   
+      <input className="add" type='button' value='Add Task' onClick={addItem}></input>
+      </div>
 
       <div className='task'>
         {

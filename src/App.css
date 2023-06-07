@@ -1,10 +1,31 @@
+*{
+    font-family: 'Poppins';
+
+}
 #body{
+  font-family: 'Poppins';
+  font-size: 12px;
   background-color: white;
+  overflow: hidden;
+  overflow-y: auto;
+  
+}
+
+
+#root{
+  margin: 0px;
+  padding: 0px;
+  width: max-content;
+  width: 100%;
 }
 
 .container{
   display: flex;
-  justify-content: flex-end;
+  flex-direction: row-reverse;
+}
+
+.title{
+  font-size: 35px;
 }
 
 
@@ -15,6 +36,7 @@
   width: 160px;
   height: 40px;
   border-radius: 10px;
+  border: 1px solid lightslategray;
 }
 .d_btn:hover{
   width: 162px;
@@ -27,16 +49,21 @@
 .inputBox {
   width: 350px;
   padding: 12px 20px;
-  margin: 8px 20px;
+  margin: 15px 20px;
+  border: none;
+  border-bottom: 2px solid lightgray;
 }
-
 .add {
+ 
   cursor: pointer;
-  font-style:bold;
   width: 150px;
-  padding: 12px 20px;
+  font-size: 14px;
+  padding: 12px 18px;
   margin: 8px 0;
+  margin-right: 10px;
   background-color: greenyellow;
+  border: none;
+  border-radius: 15px;
 }
 .add:hover{
   background-color: green;
@@ -55,7 +82,7 @@
 .btn1:hover{
   background-color: purple;
   color: aliceblue;
-  transition:0.5s;
+  transition:300ms;
   width: 65px;
   height: 40px;
 
@@ -63,9 +90,19 @@
 
 .App {
   text-align: center;
-  
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  width: 100%;
 }
 
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px;
+  margin: 10px 10px;
+}
 
 
 .btn{
@@ -104,3 +141,19 @@
   justify-content: center;
 }
 
+@media screen and (max-width:470px) {
+  .form{
+    flex-direction: column;
+  }
+  .inputBox{
+    width: 270px;
+    margin: 0px 80px;
+  }
+}
+
+@media  screen and (max-width:319px) {
+  .inputBox{
+    width: 220px;
+  }
+  
+}

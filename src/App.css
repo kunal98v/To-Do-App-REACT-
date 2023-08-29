@@ -51,7 +51,11 @@
   padding: 12px 20px;
   margin: 15px 20px;
   border: none;
+   
   border-bottom: 2px solid lightgray;
+}
+.inputBox:focus{
+  outline: none;
 }
 .add {
  
@@ -64,27 +68,31 @@
   background-color: greenyellow;
   border: none;
   border-radius: 15px;
+  box-shadow: 5px 5px 20px greenyellow;
+
 }
 .add:hover{
-  background-color: green;
-  color:white;
+  box-shadow: 5px 5px 20px 10px greenyellow;
+
   transition: 555ms;
 }
 .btn1{
   background-color: yellow;
   padding: 10px 15px;
   border: none;
-  margin-left: 10px;
+  margin-left: 40px;
   cursor: pointer;
   border-radius: 10px;
+  box-shadow: 1px 1px 20px   yellow;
+
 
 }
 .btn1:hover{
-  background-color: purple;
-  color: aliceblue;
   transition:300ms;
   width: 65px;
   height: 40px;
+  box-shadow: 2px 5px 20px 8px  yellow;
+
 
 }
 
@@ -108,12 +116,15 @@
 .btn{
   
   border-radius: 55px;
-  margin-left: 10px;
+  margin-left: 40px;
   background-color: red;
   color: black;
   padding: 12px 20px;
   border: none;
   cursor: pointer;
+  box-shadow: 2px 2px 20px red;
+
+
 }
 
 .btn:hover{
@@ -123,6 +134,8 @@
   color: white;
   width: 55px;
   height: 45px;
+  box-shadow: 5px 5px 20px 8px red;
+
 }
 
 
